@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>CBT Admin - Login</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <main class="login-container">
+    <form id="loginForm" class="login-card" novalidate>
+      <h1>Masuk</h1>
+      <div class="field">
+        <label for="username">Nama Pengguna</label>
+        <input id="username" name="username" type="text" autocomplete="username" required>
+      </div>
+      <div class="field">
+        <label for="password">Kata Sandi</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="actions">
+        <button type="submit" class="btn primary">Masuk</button>
+      </div>
+      <p class="message" id="message" aria-live="polite"></p>
+    </form>
+  </main>
+  <script src="assets/js/login.js"></script>
+</body>
+</html>
